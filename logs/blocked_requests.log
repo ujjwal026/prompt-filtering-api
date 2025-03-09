@@ -1,0 +1,14 @@
+2025-03-09 15:31:43,495 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 15:31:43,495 - [33mPress CTRL+C to quit[0m
+2025-03-09 15:31:43,497 -  * Restarting with stat
+2025-03-09 15:31:45,012 -  * Debugger is active!
+2025-03-09 15:31:45,016 -  * Debugger PIN: 144-399-025
+2025-03-09 15:33:55,490 - 127.0.0.1 - - [09/Mar/2025 15:33:55] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-09 15:33:55,979 - 127.0.0.1 - - [09/Mar/2025 15:33:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-09 15:34:42,002 - 127.0.0.1 - - [09/Mar/2025 15:34:42] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+2025-03-09 15:35:25,740 - 127.0.0.1 - - [09/Mar/2025 15:35:25] "[33mPOST /ask HTTP/1.1[0m" 404 -
+2025-03-09 15:35:40,467 - 127.0.0.1 - - [09/Mar/2025 15:35:40] "[33mGET /ask HTTP/1.1[0m" 404 -
+2025-03-09 15:36:31,863 - 127.0.0.1 - - [09/Mar/2025 15:36:31] "[31m[1mPOST /generate HTTP/1.1[0m" 400 -
+2025-03-09 15:38:59,728 -  * Detected change in 'D:\\unbouded-filter\\app.py', reloading
+2025-03-09 15:39:00,237 -  * Restarting with stat
