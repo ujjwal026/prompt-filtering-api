@@ -1,5 +1,3 @@
-
-# prompt-filtering-api
 # Prompt Filtering API
 
 ## Overview
@@ -57,9 +55,4 @@ Test: How to perform a DDoS attack?
 ❌ BLOCKED: "Cannot answer this request."
 ```
 
-## Contributing
-Feel free to submit issues or pull requests if you'd like to contribute.
-
-## License
-This project is licensed under the MIT License.
 
