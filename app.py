@@ -19,11 +19,11 @@ def ask_gemini():
     if not prompt:
         return jsonify({"error": "No prompt provided"}), 400
 
-    # Check if the prompt is safe
+    # Check is promt safe hai 
     if not is_safe_prompt(prompt):
         return jsonify({"error": "Blocked due to security concerns"}), 403
 
-    # If safe, forward the request to Gemini
+    # If safe forward 
     try:
         response = requests.post(
             f"{GEMINI_URL}?key={GEMINI_API_KEY}",
@@ -31,7 +31,7 @@ def ask_gemini():
             timeout=10
         )
 
-        # Parse the response from Gemini
+        # Parse 
         result = response.json()
         candidates = result.get("candidates", [])
         if candidates and "content" in candidates[0]:
